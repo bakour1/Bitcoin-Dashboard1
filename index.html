@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitcoin Dashboard</title>
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Main Template CSS File -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- === header === -->
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <a href="#"><img src="https://i.postimg.cc/wTTMWr8n/logo.png" alt=""></a>
+      </div>
+      <div class="account">
+        <div class="mony">
+          <span class="active">0.0025 <i class="fab fa-btc"></i></span>
+          <span>19.93 USD</span>
+        </div>
+        <div class="profile">
+          <i class="far fa-user"></i>
+          <span class="name">osama elzero</span>
+          <i class="fas fa-angle-down"></i>
+        </div>
+      </div>
+    </header>
+    <!-- === said bar === -->
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fas fa-igloo"></i></a></li>
+          <li class="active"><a href="#"><i class="fas fa-exchange-alt"></i></a></li>
+          <li><a href="#"><i class="far fa-user"></i></a></li>
+          <li><a href="#"><i class="fas fa-tools"></i></a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- === main === -->
+    <main>
+      <div class="title-page">
+        <h3>welcome back,<span>username</span></h3>
+      </div>
+      <div class="parent">
+        <!-- == col-buy-sell == -->
+        <div class="col-buy-sell">
+          <div class="order">
+            <button class="active">buy</button>
+            <button>sell</button>
+          </div>
+          <form action="" method="GET">
+            <div class="currency">
+              <label for="currency">currency</label>
+              <div class="parent">
+                <div class="wrapper-select">
+                  <select name="currency" id="currency">
+                    <option value="1" selected>bitcoin</option>
+                    <option value="2">bitcoin1</option>
+                    <option value="3">bitcoin2</option>
+                    <option value="4">bitcoin3</option>
+                  </select>
+                </div>
+                <div class="input-num">
+                  <input type="text" name="input-num" placeholder="125.00 USD">
+                </div>
+              </div>
+            </div>
+            <div class="payment">
+              <label for="payment-Method">Payment Method</label>
+              <div class="parent">
+                <div class="wrapper-select">
+                  <select name="payment-Method" id="payment-Method">
+                    <option value="1" selected>bitcoin</option>
+                    <option value="2">bitcoin1</option>
+                    <option value="3">bitcoin2</option>
+                    <option value="3">bitcoin3</option>
+                  </select>
+                </div>
+                <div class="input-num">
+                  <input type="text" placeholder="125.00 USD" name="input-num">
+                </div>
+              </div>
+            </div>
+            <div class="amount">
+              <label for="amount">Enter your amount</label>
+              <div class="parent">
+                <div class="amount">
+                  <input id="amount" type="text" name="amount" placeholder="0.0214 BTC">
+                </div>
+                <div class="amount">
+                  <input id="amount" type="text" name="amount" placeholder="125.00 USD">
+                </div>
+              </div>
+            </div>
+            <div class="notify">
+              <span>Monthly Limit</span>
+              <span>$49750 remaining</span>
+            </div>
+            <div class="submit">
+              <input type="submit" value="exchange now">
+            </div>
+          </form>
+          <p class="foot">
+            Note: Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate suscipit explicabo voluptas
+            eos in
+            tenetur error temporibus dolorum. Nulla!
+          </p>
+        </div>
+        <!-- == col-info == -->
+        <div class="col-info">
+          <div class="header-profile">
+            <div class="buyer">
+              <div class="img-box">
+                <img src="https://i.postimg.cc/7Ys6jNqh/2.png" alt="">
+              </div>
+              <div class="content">
+                <h3>buyer</h3>
+                <span>eman</span>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+              </div>
+            </div>
+            <div class="seller">
+              <div class="img-box">
+                <img src="https://i.postimg.cc/rsgmV1Wh/1.png" alt="">
+              </div>
+              <div class="content">
+                <h3>seller</h3>
+                <span>osama</span>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="body-info">
+            <table>
+              <tbody>
+                <tr>
+                  <td class="active">You are selling</td>
+                  <td class="active">0.00254 BTC</td>
+                </tr>
+                <tr>
+                  <td>Payment Method</td>
+                  <td>Bank of America Bank ***********5245</td>
+                </tr>
+                <tr>
+                  <td>Exchange Rate</td>
+                  <td>0.00212455 BTC</td>
+                </tr>
+                <tr>
+                  <td>Fee</td>
+                  <td>$28.00 USD</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>$854.00 USD</td>
+                </tr>
+                <tr>
+                  <td>Vat</td>
+                  <td class="red">
+                    $25.00 USD
+                  </td>
+                </tr>
+                <tr>
+                  <td> sub total</td>
+                  <td> $1232.00 USD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
